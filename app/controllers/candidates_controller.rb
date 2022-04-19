@@ -10,4 +10,28 @@ class CandidatesController < ApplicationController
         render json: @candidate, key_transform: :camel_lower
     end
 
+    def create
+        @candidate = Review.new(candidate_params)
+        if @candidate.save
+            render json: @candidate, key_transform: :camel_lower
+        else
+            render json: @candidate.errors, status: :unprocessable_entity
+        end
+    end
+
+    private
+      def candidate_params
+        params.require(:candidate).permit(
+            :first_name, 
+            :last_name, 
+            :email, 
+            :phone, 
+            :address,
+            :city,
+            :state,
+            :zipcode,
+            :job_id
+            )
+      end
+
 end
