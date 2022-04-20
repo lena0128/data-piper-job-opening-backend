@@ -1,24 +1,18 @@
-# README
+# Data Piper Job Opening Backend API
+SPA features job openings search tool with read, and create candidate operations.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Modeled custom database schema and REST API with Active Record and Ruby On Rails
 
-Things you may want to cover:
+This is project is used for a technical assignment only.
 
-* Ruby version
+### Frontend Repo
+Please find the <a>frontend repo</a>. 
 
-* System dependencies
+### Installation
+Run `bundle install`
 
-* Configuration
+Run `rails db:migrate`
 
-* Database creation
+Run `rails db:seed`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run `rails s -p 5000` to start the server
