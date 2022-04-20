@@ -6,12 +6,12 @@ class CandidatesController < ApplicationController
     end
 
     def show
-        @candidate = Candidate.find([arams[:id]])
+        @candidate = Candidate.find([params[:id]])
         render json: @candidate, key_transform: :camel_lower
     end
 
     def create
-        @candidate = Review.new(candidate_params)
+        @candidate = Candidate.new(candidate_params)
         if @candidate.save
             render json: @candidate, key_transform: :camel_lower
         else

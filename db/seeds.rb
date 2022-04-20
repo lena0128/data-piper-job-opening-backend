@@ -9,6 +9,18 @@
 Job.create([
     {
         client: "PwC",
+        thumb: "https://logodix.com/logo/381657.jpg",
+        poc: "Maria Rodriguez",
+        email: "M.RD43@datapipertech.com",
+        role: "Core Senior Software Developer - Senior Associate",
+        urgency: "High",
+        quantity: 1,
+        skills_needed: "Java,Springboot Docker/Kubernetes, API/microservices/Cloud"
+    },
+
+    {
+        client: "Google",
+        thumb: "https://fontspace.io/wp-content/uploads/2021/04/Google-Logo-font-free.jpg",
         poc: "Maria Rodriguez",
         email: "M.RD43@datapipertech.com",
         role: "Core Senior Software Developer - Senior Associate",
@@ -19,16 +31,7 @@ Job.create([
 
     {
         client: "PwC",
-        poc: "Maria Rodriguez",
-        email: "M.RD43@datapipertech.com",
-        role: "Core Senior Software Developer - Senior",
-        urgency: "High",
-        quantity: 1,
-        skills_needed: "Java,Springboot Docker/Kubernetes, API/microservices/Cloud"
-    },
-
-    {
-        client: "PwC",
+        thumb: "https://logodix.com/logo/381657.jpg",
         poc: "David Smith",
         email: "DavidS_33@datapipertech.com",
         role: "Zendesk Developer",
@@ -39,6 +42,7 @@ Job.create([
 
     {
         client: "PwC",
+        thumb: "https://logodix.com/logo/381657.jpg",
         poc: "Rob Adams",
         email: "2Robert@datapipertech.com",
         role: "Datavault 2.0",
@@ -49,6 +53,7 @@ Job.create([
 
     {
         client: "PwC",
+        thumb: "https://logodix.com/logo/381657.jpg",
         poc: "Eliza Cath",
         email: "ElizaT_Cat@datapipertech.com",
         role: "Snowflake data engineer",

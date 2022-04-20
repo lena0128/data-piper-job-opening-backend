@@ -2,6 +2,7 @@ class CreateJobs < ActiveRecord::Migration[6.1]
   def change
     create_table :jobs do |t|
       t.string :client
+      t.string :thumb
       t.string :poc
       t.string :email
       t.string :role

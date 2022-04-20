@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 2022_04_19_000116) do
 
   create_table "jobs", force: :cascade do |t|
     t.string "client"
+    t.string "thumb"
     t.string "poc"
     t.string "email"
     t.string "role"
