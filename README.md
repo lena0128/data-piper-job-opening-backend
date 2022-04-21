@@ -6,7 +6,7 @@ SPA features job openings search tool with read, and create candidate operations
 This is project is used for a technical assignment only.
 
 ### Frontend Repo
-Please find the <a>frontend repo</a>. 
+Please find the <a href="https://github.com/lena0128/data-piper-job-opening-frontend">frontend repo</a>. 
 
 ### Installation
 Run `bundle install`
